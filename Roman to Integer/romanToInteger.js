@@ -6,7 +6,6 @@ function romanToInt(s) {
         var ele = s[i];
         array.push(elementString(ele));
     }
-    console.log(array);
     for (var i = 0; i < array.length; i++) {
         var ele = array[i];
         if (ele < array[i + 1]) {
